@@ -2,3 +2,14 @@ processing-play
 ===============
 
 Explorations in the Processing programming language
+
+
+Links
+----
+
+[The Nature of Code](http://natureofcode.com/book/)
+[tumbler amiagoodperson Cantor Dust Gist](https://gist.github.com/anonymous/09e288e2a53fc56e4659)
+[Joons Renderer](https://github.com/joonhyublee/joons-renderer/wiki/Tutorial)
+[p5art](http://p5art.tumblr.com/tutorials)
+[25 LIFE-SAVING TIPS FOR PROCESSING](http://amnonp5.wordpress.com/2012/01/28/25-life-saving-tips-for-processing/)
+[github user HiddenEnigma](https://github.com/hiddenenigma/365Processing)
