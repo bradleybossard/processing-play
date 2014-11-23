@@ -3,6 +3,10 @@ processing-play
 
 Explorations in the Processing programming language
 
+Animations
+----------
+Sneeze<br/>
+![Sneeze](https://raw.githubusercontent.com/bradleybossard/processing-play/master/gif/sneeze.gif)<br>
 
 Links
 ----
