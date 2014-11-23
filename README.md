@@ -5,7 +5,7 @@ Explorations in the Processing programming language
 
 Animations
 ----------
-Sneeze<br/>
+Sneeze [codepen](http://codepen.io/bradleybossard/full/dPobZx/)<br/>
 ![Sneeze](https://raw.githubusercontent.com/bradleybossard/processing-play/master/gif/sneeze.gif)<br>
 
 Links
