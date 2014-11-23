@@ -20,9 +20,9 @@ void setup() {
 
 // this function acts like a filter.
 // TODO(bbossard) : Replace this with a better behaved filter.
-float getRange(float amplification, float radians) {
+float getRange(float amplification, float rads) {
     float phase = radians(phaseAngle);
-    float rangeFilter = map(cos(radians + phase), -1, 1, 0, 1);
+    float rangeFilter = map(cos(rads + phase), -1, 1, 0, 1);
     rangeFilter = amplification * pow(rangeFilter, 2.7);
     return rangeFilter;
 }
@@ -30,7 +30,7 @@ float getRange(float amplification, float radians) {
 void drawCircle(float amplification, float frequency, float radius){
   float x = 0;
   float y = 0;
-  float radians = 0;  
+  float rads = 0;  
   float rangeFilter;
   float angle;
   float perturbation;
@@ -43,16 +43,16 @@ void drawCircle(float amplification, float frequency, float radius){
   beginShape();
   for (int i = 0; i < samples; i++) {
     angle = i / samples * 360;
-    radians = radians(angle);
+    rads = radians(angle);
 
-    rangeFilter = getRange(amplification, radians);
+    rangeFilter = getRange(amplification, rads);
 
-    perturbation = cos(frequency * radians + phase);
+    perturbation = cos(frequency * rads + phase);
     
     displacement = radius * (1 + rangeFilter * perturbation);
 
-    x = displacement * cos(radians);
-    y = displacement * sin(radians);
+    x = displacement * cos(rads);
+    y = displacement * sin(rads);
     vertex(x, y);
   }
   endShape(CLOSE);
